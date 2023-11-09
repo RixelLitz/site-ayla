@@ -103,7 +103,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(12, 12, 12);
+  background: url(assets/bg-desktop.jpg) no-repeat;
+  background-size: cover;
+  /* background-color: rgb(12, 12, 12); */
   width: 100vw;
   height: 100vh;
 }
