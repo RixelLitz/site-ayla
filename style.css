@@ -9,6 +9,7 @@ main {
 }
 /* Estilização Header-navbar*/
 #header-container {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -142,6 +143,8 @@ main {
   align-items: center;
   text-align: center;
   flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
   gap: 50px;
   color: white;
 }
@@ -153,10 +156,12 @@ main {
 }
 #section-2-container {
   display: flex;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 50px;
   color: white;
 }
