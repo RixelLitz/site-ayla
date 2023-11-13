@@ -105,7 +105,7 @@ main {
   background: url(assets/bg-desktop.jpg) no-repeat;
   background-size: cover;
   width: 100%;
-  height: 95%;
+  height: 100%;
 }
 #body-section-2 {
   display: flex;
@@ -153,6 +153,21 @@ main {
 }
 #section-1-container h1 {
   color: violet;
+}
+#section-1-container a{
+  background-color: violet;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+  transition: 1s ease;
+}
+#section-1-container a:hover{
+  transform: 1s ease;
+  background-color: rgb(124, 3, 124);
+}
+#btn-section-1 {
+  margin-top:  30px;
 }
 #section-2-container {
   display: flex;
