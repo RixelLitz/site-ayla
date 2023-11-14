@@ -124,6 +124,10 @@ main {
   height: 95%;
 }
 #body-section-3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
   background-image: linear-gradient(
     to left,
     #1c1f1f,
@@ -134,7 +138,7 @@ main {
   );
   background-size: cover;
   width: 100%;
-  height: 95%;
+  height: 100%;
 }
 
 #section-1-container {
@@ -154,7 +158,7 @@ main {
 #section-1-container h1 {
   color: violet;
 }
-#section-1-container a{
+#section-1-container a {
   background-color: violet;
   color: white;
   text-decoration: none;
@@ -162,12 +166,12 @@ main {
   border-radius: 50px;
   transition: 1s ease;
 }
-#section-1-container a:hover{
+#section-1-container a:hover {
   transform: 1s ease;
   background-color: rgb(124, 3, 124);
 }
 #btn-section-1 {
-  margin-top:  30px;
+  margin-top: 30px;
 }
 #section-2-container {
   display: flex;
@@ -181,8 +185,63 @@ main {
   color: white;
 }
 #section-2-container img {
-  width: 400px;
+  width: 600px;
 }
 #section-2-container h1 {
   color: violet;
 }
+#section-3-container h1 {
+  color: violet;
+}
+#description-section-3 {
+  color: white;
+  padding: 80px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+#description-section-3 h1 {
+  color: violet;
+  font-size: 30px;
+}
+#description-section-3 h2 {
+  color: white;
+  font-size: 20px;
+}
+#cards {
+  flex-wrap: wrap;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+#cards #card {
+  color: rgb(255, 187, 0);
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px rgb(204, 0, 255) solid;
+  display: flex;
+  width: 20%;
+  background-color: rgb(24, 21, 22);
+  gap: 50px;
+  border-radius: 30px;
+}
+#cards #card p{
+  color: white;
+}
+#cards #card img{
+ width: 60%;
+ height: 30%;
+}
+#cards #card a{
+  color: white;
+  text-decoration: none;
+  background-color: violet;
+  padding: 20px 50px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+} 
