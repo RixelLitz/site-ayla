@@ -19,11 +19,14 @@
   }
 }
 @media (max-height: 850px) {
+  #section-1-container {
+    height: 100%;
+  }
   #section-1-container img {
     width: 100px;
   }
   #section-2-container img {
-    width: 100%;
+    width: 200px;
   }
 }
 @media (max-height: 634px) {
