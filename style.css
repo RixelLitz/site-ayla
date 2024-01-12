@@ -33,6 +33,7 @@ main {
 
 #nav-links {
   display: flex;
+  align-items: center;
   gap: 30px;
   list-style: none;
   color: white;
@@ -63,6 +64,35 @@ main {
   background-color: white;
   transition: all 0.3s ease-in-out;
 }
+#dropdown {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+#dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  display: none;
+  background-color: #000000;
+  box-shadow: #000000;
+  margin-top: 160px;
+  padding: 10px;
+}
+#dropdown-menu a {
+  text-align: none;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+#dropdown:hover #dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 /* Responsividade header-navbar*/
 
 @media (max-width: 991px) {
@@ -91,7 +121,9 @@ main {
     width: 100%;
     transition: 0.35s ease-in-out;
   }
-
+  #dropdown:hover{
+    margin-bottom: 130px;
+  }
   #nav-links li {
     margin: 16px 0;
   }
@@ -301,7 +333,6 @@ footer {
     #0d0d0c,
     #040403
   );
-
 }
 
 #commands-geral {
@@ -345,13 +376,12 @@ summary {
   background: #0e0e0e;
   list-style: none;
 }
-details{
+details {
   width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  
 }
 #commands-puniçoes {
   margin-top: 100px;
