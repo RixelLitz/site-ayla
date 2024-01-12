@@ -311,6 +311,7 @@ footer {
   text-align: center;
   flex-direction: column;
   gap: 20px;
+  margin-bottom: 30px;
 }
 #commands-geral details {
   color: white;
@@ -399,4 +400,4 @@ details{
 #commands-outros p {
   color: bisque;
 }
-
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Estilização ticketsys.html <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
