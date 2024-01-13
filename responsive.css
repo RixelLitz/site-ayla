@@ -36,8 +36,46 @@
   }
 }
 
-/*Responsividade geral do site.*/
+/*Responsividade index.html.*/
 
+@media (max-width: 650px) {
+  #section-1-container img {
+    width: 50%;
+  }
+  #section-2-container img {
+    width: 80%;
+  }
+}
+@media (max-width: 400px) {
+  #section-1-container {
+    font-size: 10px;
+  }
+  #section-1-container img {
+    width: 50%;
+  }
+  #section-2-container img {
+    width: 50%;
+  }
+}
+@media (max-height: 822px) {
+  #section-1-container img {
+    width: 20%;
+  }
+  #section-2-container img {
+    width: 30%;
+  }
+}
+@media (max-height: 600px) {
+  #section-1-container {
+    font-size: 10px;
+  }
+  #section-1-container img {
+    width: 20%;
+  }
+  #section-2-container img {
+    width: 30%;
+  }
+}
 @media (max-width: 848px) {
   #cards #card a {
     padding: 20px;
@@ -50,41 +88,62 @@
     flex-direction: column;
   }
 }
-@media (max-width: 385px) {
-  #section-1-container img {
+/* Responsividade comandos.html*/
+
+@media (max-width: 266px) {
+  #command-container-1 h1 {
+    font-size: 20px;
+  }
+  #commands-container h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 610px) {
+  #command-container-1 h1 {
+    font-size: 20px;
+  }
+  #commands-container h1 {
+    font-size: 20px;
+  }
+}
+@media (max-height: 645px) {
+  #command-container-1 h1 {
+    font-size: 20px;
+  }
+  #command-container-1 img {
+    width: 30%;
+  }
+  #commands-container h1 {
+    font-size: 20px;
+  }
+}
+@media (max-height: 575px) {
+  #command-container-1 h1 {
+    font-size: 20px;
+  }
+  #command-container-1 img {
+    width: 15%;
+  }
+  #commands-container h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 312px) {
+  #command-container-1 img {
     width: 50%;
   }
-  #section-2-container img {
-    width: 100%;
+}
+/*Responsividade sistemas*/
+@media (max-width: 726px) {
+  #container-1 iframe{
+    width: 77%;
+    height: 30vh;
   }
 }
-@media (max-height: 850px) {
-  #section-1-container {
-    height: 100%;
-  }
-  #section-1-container img {
-    width: 100px;
-  }
-  #section-2-container img {
-    width: 200px;
-  }
-}
-@media (max-height: 634px) {
-  #description-section-1 {
-    font-size: 15px;
-  }
-}
-@media (max-height: 577px) {
-  #section-1-container {
-    margin-top: 100px;
-  }
-  #description-section-1 {
-    font-size: 12px;
-  }
-  #section-2-container img {
-    margin-top: 200px;
-  }
-  #description-section-2 {
-    margin-bottom: 200px;
+@media (max-height: 754px) {
+  #container-1 iframe{
+    width: 77%;
+    height: 30vh;
   }
 }
